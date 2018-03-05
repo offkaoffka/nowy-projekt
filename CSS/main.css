@@ -1,10 +1,11 @@
 .body {
-  background-color: #FAF3E9;
+  background-color: ##FAF3E9;
   font-family: 'Lobster', cursive;
+
 }
 
 .container {
-width: 1280px;
+max-width: 1280px;
 margin: auto;
 }
 
@@ -32,7 +33,7 @@ justify-content: space-between;
   list-style-type: none;
 }
 
-.menu { 
+.menu {
 display: flex;
 font-size: 20px;
 align-items: center;
@@ -57,12 +58,12 @@ justify-content: space-around;
 }
 
 .text {
-  
+
   text-align: justify;
   width: 55%;
   float: right;
   margin-right: 40px;
-  
+
 }
 
 .image{
@@ -78,4 +79,18 @@ height: auto;
   flex-wrap: wrap;
   justify-content: flex-start;
   width: 100%;
+}
+
+.footer
+{
+background-color: black;
+height: 80px;
+display: flex;
+justify-content: center;
+}
+
+.footer p {
+  font-size: 20px;
+  color: white;
+  text-align: center;
 }
